@@ -1,0 +1,9 @@
+.Notifications {
+    padding: 1em;
+    border: dashed 2px grey;
+    min-width: 500px;
+}
+
+.MainNotif {
+    margin-left: auto;
+}
