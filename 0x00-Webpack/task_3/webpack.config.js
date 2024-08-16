@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: {
     main: path.resolve(__dirname, './js/dashboard_main.js'),
   },
@@ -34,5 +34,13 @@ module.exports = {
         ],
       },
     ],
+  },
+
+  devServer: {
+    port: 8564,
+    contentBase: path.resolve(__dirname, 'public'),
+    compress: true,
+    hot: true,
+    open: true,
   },
 };

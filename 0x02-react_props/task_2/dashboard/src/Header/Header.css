@@ -1,0 +1,19 @@
+.App-header {
+    display: flex;
+    align-items: center;
+    /* border: solid;
+  border-width: 0 0 3px 0;
+  border-color: #E0354B; */
+    height: 15vh;
+}
+
+.App-header img {
+    width: 120px;
+    height: 120px;
+    margin: 0 1rem;
+    z-index: -1;
+}
+
+.App-header h1 {
+    color: #E0354B;
+}
